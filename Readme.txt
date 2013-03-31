@@ -1,0 +1,1 @@
+This project at www.kickballcolorado.org is all about kickball, having fun and raising some funds for a special local cause here in Boulder, CO.
