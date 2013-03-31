@@ -1,0 +1,58 @@
+application: kickballforacause
+version: 3
+runtime: python
+api_version: 1
+
+default_expiration: "7d"
+
+handlers:
+- url: /
+  static_files: assets/index.html
+  upload: assets/index.html
+
+- url: /
+  static_dir: assets
+
+- url: /favicon\.png
+  static_files: assets/favicon.png
+  upload: assets/favicon\.png
+
+- url: /(.*\.css)
+  mime_type: text/css
+  static_files: assets/static/css/\1
+  upload: assets/static/css/(.*\.css)
+
+- url: /images
+  static_dir: assets/static/img
+
+- url: /(.*\.(gif|png|jpg))
+  static_files: assets/static/img/\1
+  upload: assets/static/img/(.*\.(gif|png|jpg))
+
+- url: /(.*\.js)
+  mime_type: text/javascript
+  static_files: assets/static/js/\1
+  upload: assets/static/js/(.*\.js)
+
+- url: /(.*\.woff)
+  mime_type: application/x-font-woff
+  static_files: assets/static/css/\1
+  upload: assets/static/css/(.*\.woff)
+
+- url: /robots.txt
+  static_files: assets/robots.txt
+  upload: assets/robots.txt
+
+- url: /google6bf52965c6af7e3b.html
+  static_files: assets/google6bf52965c6af7e3b.html
+  upload: assets/google6bf52965c6af7e3b.html
+
+pagespeed:
+ enabled_rewriters:
+  - MinifyCss
+  - DeferJs
+  - CollapseWhitespace
+  - ImageAddDimensions
+ disabled_rewriters:
+  - LazyloadImages
+

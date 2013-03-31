@@ -1,0 +1,167 @@
+.navbar-fixed-top {
+    margin-bottom: 0px;
+  }
+
+.navbar-fixed-top .container {
+    width: auto;
+}
+
+.page-wrap {
+    margin: 40px 40px 40px 40px;
+    position: relative;
+    background-image: url('../img/footer-inside.png');
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(24, 123, 236, 0.07)), to(#0C0B0B));
+  
+    /* Safari 5.1, Chrome 10+ */
+        
+    background: -webkit-linear-gradient(top, #0C0B0B, rgba(24, 123, 236, 0.07));
+  
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #0C0B0B, rgba(24, 123, 236, 0.07));
+  
+    /* IE 10 */
+    background: -ms-linear-gradient(top, #0C0B0B, rgba(24, 123, 236, 0.07));
+
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #0C0B0B, rgba(24, 123, 236, 0.07));
+
+    box-shadow: 2px 1px 0px 0px rgb(60, 50, 50);}
+
+.subtitle-wrap {
+    margin: -10px 0px 28px 0px;
+    padding-top: 28px;
+    position: relative;
+    /* Safari 4-5, Chrome 1-9 */
+    font-family: 'Lobster', Georgia, Times, serif;      
+    font-size: 27.5px;      
+    color: rgb(255, 165, 0);            
+    text-shadow: 0 3px 0 black;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(24, 123, 236, 0.07)), to(#0C0B0B));
+  
+    /* Safari 5.1, Chrome 10+ */
+        
+    background: -webkit-linear-gradient(top, #0C0B0B, rgba(24, 123, 236, 0.07));
+  
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #0C0B0B, rgba(24, 123, 236, 0.07));
+  
+    /* IE 10 */
+    background: -ms-linear-gradient(top, #0C0B0B, rgba(24, 123, 236, 0.07));
+
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #0C0B0B, rgba(24, 123, 236, 0.07));
+}
+
+
+ .page-wrap-body {
+    position: relative;
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(24, 123, 236, 0.07)), to(#0C0B0B));
+  
+    /* Safari 5.1, Chrome 10+ */
+        background: -webkit-linear-gradient(top, #0C0B0B, rgba(24, 123, 236, 0.07));
+  
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #0C0B0B, rgba(24, 123, 236, 0.07));
+  
+    /* IE 10 */
+    background: -ms-linear-gradient(top, #0C0B0B, rgba(24, 123, 236, 0.07));
+
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #0C0B0B, rgba(24, 123, 236, 0.07));
+
+    box-shadow: 2px 0px 0px 0px rgb(60, 50, 50);}
+
+ .rounded-corners {
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -khtml-border-radius: 40px;
+    border-radius: 40px;
+    }
+
+.team-wrap {
+    position: relative;
+    background-image: url('../img/footer-inside.png');
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(24, 123, 236, 0.07)), to(#0C0B0B));
+  
+    /* Safari 5.1, Chrome 10+ */
+        background: -webkit-linear-gradient(top, #0C0B0B, rgba(24, 123, 236, 0.07));
+  
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #0C0B0B, rgba(24, 123, 236, 0.07));
+  
+    /* IE 10 */
+    background: -ms-linear-gradient(top, #0C0B0B, rgba(24, 123, 236, 0.07));
+
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #0C0B0B, rgba(24, 123, 236, 0.07));
+
+    box-shadow: 3px 0px 0px 0px rgb(60, 50, 50);}
+
+.form-wrap {
+    position: relative;
+    background-image: url('../img/footer-inside.png');
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(24, 123, 236, 0.07)), to(#0C0B0B));
+  
+    /* Safari 5.1, Chrome 10+ */
+        background: -webkit-linear-gradient(top, #0C0B0B, rgba(24, 123, 236, 0.07));
+  
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #0C0B0B, rgba(24, 123, 236, 0.07));
+  
+    /* IE 10 */
+    background: -ms-linear-gradient(top, #0C0B0B, rgba(24, 123, 236, 0.07));
+
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #0C0B0B, rgba(24, 123, 236, 0.07));
+
+    box-shadow: 2px 0px 0px 0px rgb(60, 50, 50);}
+
+.rounded-corners {
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -khtml-border-radius: 40px;
+    border-radius: 40px;
+}
+
+
+.navbar-inverse .nav-collapse .nav > li > a {
+    color: rgb(255, 153, 0);
+    
+}
+
+.nav-collapse .nav > li > a {
+   
+    text-align: right;
+}
+
+.nav-collapse, .nav-collapse.collapse {
+    overflow: hidden;
+
+}
+
+.slideposition {
+    margin-left: 180px;
+}    
+
+.nav-collapse .nav > li {
+    float: left;
+}
+
+.navbar-fixed-top .navbar-inner {
+    padding: 1px;
+}
+
+
+
+/*.nav-collapse, .nav-collapse.collapse {
+    height: 0;
+    overflow: visible;
+  }
+*/
+
+
+/*Need to make a css rule for the button that is Hidden and one for the dropdowns that is visible.*/
